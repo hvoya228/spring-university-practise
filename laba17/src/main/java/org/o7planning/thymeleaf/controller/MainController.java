@@ -23,9 +23,6 @@ public class MainController {
 		persons.add(new Person("Steve", "Jobs"));
 	}
 
-
-	// ​​​​​​​
-	// Вводится (inject) из application.properties.
 	@Value("${welcome.message}")
 	private String message;
 
