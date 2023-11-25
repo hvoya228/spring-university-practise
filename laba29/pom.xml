@@ -5,23 +5,22 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.5</version>
+		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.o7planning</groupId>
-	<artifactId>laba27</artifactId>
+	<artifactId>laba29</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>laba27</name>
-	<description>Spring Boot + JPA + Multi DataSource</description>
+	<name>laba29</name>
+	<description>Spring Boot +Spring Security + JPA + Remember Me</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
-    		<groupId>org.springframework.boot</groupId>
-    		<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -56,14 +55,9 @@
 		</dependency>
 		<dependency>
         <groupId>javax.persistence</groupId>
-        	<artifactId>javax.persistence-api</artifactId>
-        	<version>2.2</version>
-    	</dependency>
-    	<dependency>
-        <groupId>org.hibernate</groupId>
-        	<artifactId>hibernate-core</artifactId>
-        	<version>6.2.13.Final</version>
-    	</dependency>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version> <!-- Замініть це значення на актуальну версію JPA -->
+    </dependency>
 	</dependencies>
 
 	<build>
@@ -71,11 +65,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<builder>paketobuildpacks/builder-jammy-base:latest</builder>
-					</image>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
