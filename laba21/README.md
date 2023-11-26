@@ -2,4 +2,8 @@
 
 Створено Контролер, модель та jsp файли для відображення веб сторінки:  
 
-![project files](https://github.com/chugaister228/spring-university-practise/blob/main/laba21/readmeimages/1.png)
+![project files](https://github.com/chugaister228/spring-university-practise/blob/main/laba21/readmeimages/1.png)  
+
+Результат:  
+![project files](https://github.com/chugaister228/spring-university-practise/blob/main/laba21/readmeimages/2.png)  
+![project files](https://github.com/chugaister228/spring-university-practise/blob/main/laba21/readmeimages/3.png)  
